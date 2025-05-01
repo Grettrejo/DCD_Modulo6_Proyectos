@@ -8687,16 +8687,12 @@ Precisión en el conjunto de prueba (sin normalización): 0.6280
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h4 id="Conclusi%C3%B3n">Conclusión<a class="anchor-link" href="#Conclusi%C3%B3n">¶</a></h4><p>Al comparar el desempeño del modelo con y sin normalización de imágenes, se observa una mejora significativa en ambos indicadores de rendimiento cuando se aplica normalización.</p>
 <ul>
-<li>En la gráfica de <strong>precisión</strong>, el modelo con normalización alcanza una precisión en validación cercana al <strong>80%</strong>, mientras que el modelo sin normalización se mantiene por debajo del <strong>65%</strong>.</li>
-<li>En la gráfica de <strong>pérdida</strong>, el modelo con normalización muestra una curva más estable y con valores considerablemente más bajos, lo que indica un mejor ajuste al conjunto de datos de validación.</li>
-<li>Además, la <strong>precisión en el conjunto de prueba</strong> confirma esta diferencia:<ul>
-<li>Con normalización: <strong>0.7935</strong></li>
-<li>Sin normalización: <strong>0.6280</strong></li>
-</ul>
+<li><p>Se observa que, el modelo con normalización alcanza una precisión en validación cercana al 80%, mientras que el modelo sin normalización se mantiene por debajo del 65%.</p>
+</li>
+<li><p>En la gráfica de pérdida, el modelo con normalización muestra una curva más estable y con valores considerablemente más bajos, lo que indica un mejor ajuste al conjunto de datos de validación.</p>
 </li>
 </ul>
-<p>Estos resultados reflejan que la <strong>normalización de los valores de píxeles (de 0-255 a 0-1)</strong> ayuda al modelo a <strong>entrenar de manera más eficiente</strong>, logrando mejores predicciones y menor sobreajuste. Esto se debe a que las redes neuronales suelen converger más rápido y con mayor estabilidad cuando las entradas están en una escala uniforme.</p>
-<p>En resumen, <strong>la normalización de imágenes es un paso clave en el preprocesamiento que mejora notablemente la capacidad del modelo para generalizar</strong>.</p>
+<p>Estos resultados reflejan que la normalización de los valores de píxeles (de 0-255 a 0-1) ayuda al modelo a entrenar de manera más eficiente, logrando mejores predicciones y menor sobreajuste. Esto se debe a que las redes neuronales suelen converger más rápido y con mayor estabilidad cuando las entradas están en una escala uniforme.</p>
 </div>
 </div>
 </div>
